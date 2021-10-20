@@ -1,5 +1,5 @@
 # README
-The application gets all OSM data found a bounding box.
+The application gets all OSM data found in a bounding box.
 ## Installation
 It is a console C# application, and needs visual studio to run it.
 ## API
