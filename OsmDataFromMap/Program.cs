@@ -17,7 +17,11 @@ namespace OsmDataFromMap
 
         static async Task Main(string[] args)
         {
-            //To Use Coordinate and a zoom level, read more at https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames#Zoom_levels
+            /*To Use Coordinate and a zoom level, read more at https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames#Zoom_levels
+            /* Zoom Levels works differently on different screens sizes. 
+            /* For Example: https://www.openstreetmap.org/#map=13/47.2994/-122.3034 on a full sreen show a wider area
+            /* and the same URL on a small screen, show a bit close up area.
+            */
             //Using Boundry Box
             await SendRequest(47.389704284254435, -122.05152509779643, 47.391717802883036, -122.04711567641095);
         }
